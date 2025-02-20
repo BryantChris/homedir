@@ -3,7 +3,7 @@
 https://ohmyz.sh/
 
 ## .zshrc additions
-
+```
 ZSH_THEME="eastwood"
 
 plugins=(git node iterm2 macos aws zsh-autosuggestions zsh-syntax-highlighting)
@@ -32,3 +32,4 @@ fi
 export GOPATH=$HOME/go
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+```

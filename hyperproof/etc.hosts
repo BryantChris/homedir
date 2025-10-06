@@ -1,0 +1,107 @@
+127.0.0.1	localhost
+127.0.1.1	cbryant-hp-laptop
+
+# Remote Postgres
+172.16.3.4          hyperproofdeva.postgres.database.azure.com
+172.16.4.4          hyperproofstagea.postgres.database.azure.com
+172.27.0.4          pgpool-prod.postgres.database.azure.com
+172.16.6.4      hyperproof.postgres.database.azure.com #PROD PG14
+172.5.0.4       hyperprooffra.postgres.database.azure.com #ProdFR
+172.0.0.4       hyperproofdeva-fr.private.postgres.database.azure.com #DevFedRAMP PG 14
+
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+10.97.183.196 hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 home.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 fe.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 accounts.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 api.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 ops.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 smtp.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 kibana.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 jaeger.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 prometheus.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 victoriametrics.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 alertmanager.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 grafana.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 contoso.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 hpokta.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 hpazad.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 hpscim.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 hpjc.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 hpssotest.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 otel.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.98.131.177 backend.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.109.105.79 backend-postgresql.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.102.57.229 redis-master.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.103.195.49 redis-replicas.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.101.59.6 import-backend.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.108.215.117 jobengine.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.102.137.252 jobengine-beanstalkd.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.99.29.212 workflowengine.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.106.203.11 activityprocessor.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.107.174.135 scheduling-api.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.105.151.96 beanstalkd.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.99.65.223 queueapi.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.102.115.141 integrationapi.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.106.83.227 nodeagent.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.98.11.229 aiengine.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.107.131.20 aiagent.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 jaeger.hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 kibana.hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 smtp.hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 prometheus.hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 alertmanager.hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 grafana.hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 ckeditor.hyper.red   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 hyper.pink   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 jaeger.hyper.pink   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 kibana.hyper.pink   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 smtp.hyper.repinkd   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 prometheus.hyper.pink   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 alertmanager.hyper.pink   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 grafana.hyper.pink   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 hyper.green   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 jaeger.hyper.green   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 kibana.hyper.green   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 smtp.hyper.green   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 prometheus.hyper.green   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 alertmanager.hyper.green   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 grafana.hyper.green   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 hyper.black   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 jaeger.hyper.black   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 kibana.hyper.black   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 smtp.hyper.black   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 prometheus.hyper.black   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 alertmanager.hyper.black   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 grafana.hyper.black   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 hyper.navy   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 jaeger.hyper.navy   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 kibana.hyper.navy   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 smtp.hyper.navy   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 prometheus.hyper.navy   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 alertmanager.hyper.navy   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 grafana.hyper.navy   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 hyper.gold   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 jaeger.hyper.gold   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 kibana.hyper.gold   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 smtp.hyper.gold   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 prometheus.hyper.gold   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 alertmanager.hyper.gold   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 grafana.hyper.gold   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 hyper.gray   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 jaeger.hyper.gray   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 kibana.hyper.gray   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 smtp.hyper.gray   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 prometheus.hyper.gray   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 alertmanager.hyper.gray   #CREATED BY HYPER. Edits will be removed on next hyper up.
+127.0.0.1 grafana.hyper.gray   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
+10.97.183.196 hpip.hyper.blue   #CREATED BY HYPER. Edits will be removed on next hyper up.
